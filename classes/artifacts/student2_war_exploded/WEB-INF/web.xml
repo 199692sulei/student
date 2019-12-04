@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
+<servlet>
+	<servlet-name>StudentListServlet</servlet-name>
+	<servlet-class>student.StudentListServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudentListServlet</servlet-name>
+	<url-pattern>/studentlistservlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>StudentListByNameServlet</servlet-name>
+	<servlet-class>student.StudentListByNameServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudentListByNameServlet</servlet-name>
+	<url-pattern>/studentlistbynameservlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>StudentEditServlet</servlet-name>
+	<servlet-class>student.StudentEditServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudentEditServlet</servlet-name>
+	<url-pattern>/studenteditservlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>StudentSaveServlet</servlet-name>
+	<servlet-class>student.StudentSaveServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudentSaveServlet</servlet-name>
+	<url-pattern>/studentsaveservlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>StudentDeleteServlet</servlet-name>
+	<servlet-class>student.StudentDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudentDeleteServlet</servlet-name>
+	<url-pattern>/studentdeleteservlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
